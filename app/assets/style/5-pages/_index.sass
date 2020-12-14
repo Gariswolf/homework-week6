@@ -1,0 +1,17 @@
+.sidebar
+    max-width: 296px
+.sidebar-link
+    position: relative
+    &::before
+       content: '' 
+       display: block
+       width: 4px
+       height: 24px
+       position: absolute
+       top: 0
+       left: 0
+       background-color: $transparent
+       
+    &:hover::before
+        background-color: $primary
+
