@@ -1,7 +1,7 @@
 @each $color, $value in $theme-colors
     .hover-color-#{$color}
         @include hover()
-            color: $value
+            color: $value !important
     .hover-bg-#{$color}
         @include hover()
             background-color: $value !important
